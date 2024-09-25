@@ -158,3 +158,21 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+/Download_data
+/Boat_Detection/Datasets
+/Boat_Detection/MultiClass_Dataset
+/Boat_Detection/videos
+/eminonu
+/fiftyyone
+/log
+/SynexensPythonSDK_4.2.1.0_windows_20240617182111
+/runs
+
+/DistanceCalculation/camera_burak
+/DistanceCalculation/chessboard
+/DistanceCalculation/screenshots
+/helpers/convert_labels.py
+/helpers/delete_non_matching.py
+/helpers/FiftyOne2yolo.py
