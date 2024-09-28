@@ -16,15 +16,15 @@ CONFIG = {
 
 
 PATHS = {
-    'model_path': [r'best_models\Old_Ft_ft.pt',
+    'model_path': [r'best_models/Old_Ft_ft.pt',
                    ],
     
     
     
-    'videos_dir': [r"path\to\videos\dir",
+    'videos_dir': [r"path/to/videos",
                    ],
     
-    'yaml_path': r'DistanceCalculation\camera_cs30\camera.yaml',
+    'yaml_path': r'DistanceCalculation/camera_cs30/camera.yaml',
 }
 
 
@@ -195,7 +195,6 @@ def process_image(image_path, image_path_out, model, cnfg):
         boxes.append((int(x1), int(y1), int(x2), int(y2), float(score), int(class_id)))
 
     boxes = filter_boxes(boxes, iou_threshold = iou_threshold)
-    print("boxes: ",boxes)
     if boxes:
         if show_horizon:
             cv2.line(image, (0, image.shape[0] // 2), (image.shape[1], image.shape[0] // 2), (0, 0, 255), 2)

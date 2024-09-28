@@ -6,7 +6,7 @@ import cv2
 
 
 VIDEOS_DIR = r"Boat_Detection\videos"
-model_path = r'runs\detect\2Class_GroundUp\weights\best.pt'
+model_path = r'best_models\Old_Ft_ft.pt'
 threshold = 0.15
 
 
